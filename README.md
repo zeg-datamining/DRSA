@@ -8,6 +8,10 @@ with fine granularity and long sequence dependencies.
 * Leveraging a flexible block-based approach, we shift the research focus from the global to the local view, unearthing more hidden features. Building on this foundation,
   we have devised a Dynamic Routing Filtering (DRF) mechanism, which dynamically adapts to the local context through route selection.
 
+![overall](pics/overall.jpeg)
+
+![DRF](pics/DRF.jpeg)
+
 ## Requirments
 This code requires the following:
 
@@ -20,6 +24,10 @@ This code requires the following:
 1.  Install Python 3.8, PyTorch >= 1.12.1. 
 2.  Download data.
 3.  Train and evaluate. We provide the experiment scripts of all DRSA under the folder ./scripts.
+
+## Main Result
+We compare our model with 16 baselines.
+![result](pics/results.jpeg)
 
 ## Contact
 If you have any question, please contact wangwenyan32@163.com.
